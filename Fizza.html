@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistic-Fizza</title>
+</head>
+<style>
+    /* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #5a9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #48a;
+}
+
+/* Section styles */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #5a9;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+section p, section ul {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Gallery styles */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styles */
+footer {
+    background-color: #5a9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #5a9;
+    outline: none;
+}
+
+form button {
+    background-color: #48a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #358;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Welcome to the Artistic-Fizza</h1>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Designs">Designs</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Home">
+        <h2>Hello! This is Fizza</h2>
+        <p>A young Canvas designer, Islamic calligrapher and embriodery designer
+            I offer wide range of different designs for arts with beautiful layout and
+            embriodery skills with 2 years of experience of the art work
+        </p>
+    </section>
+    <section id="Services">
+        <h2>My Services</h2>
+        <ul>
+            <li>Canvas Decoration</li>
+            <li>Islamic Calligraphy</li>
+            <li>Embriodery styling</li>
+            <li>General designing</li>
+        </ul>
+    </section>
+    <section id="designs">
+        <h2>Our Designs</h2>
+        <div class="gallery">
+           <img src="WhatsApp Image 2024-10-26 at 12.05.29_f10631a4.jpg" alt="fiza1">
+           <img src="WhatsApp Image 2024-11-28 at 09.02.59_ddc28454.jpg" alt="fiza2">
+           <img src="WhatsApp Image 2024-11-28 at 06.34.18_0bf4eb85.jpg" alt="fiza3">
+           <img src="WhatsApp Image 2024-11-28 at 06.33.31_f1e3270d.jpg" alt="fiza4">
+           <img src="WhatsApp Image 2024-11-28 at 06.33.31_4ed74e68.jpg" alt="fiza5">
+           <img src="WhatsApp Image 2024-11-28 at 06.33.31_5f9c8f63.jpg" alt="fiza6">
+           <img src="WhatsApp Image 2024-11-28 at 06.33.30_b7a10d71.jpg" alt="fiza7">
+           <img src="WhatsApp Image 2024-11-28 at 06.33.33_10632d3f.jpg" alt="fiza8">
+           <img src="WhatsApp Image 2024-12-28 at 02.45.35_aa3c3f07.jpg" alt="fiza9">
+           <img src="download.jpeg" alt="fiza10">
+    </section>
+    <footer id="contact">
+        <h2>Contact me</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+          </form>
+
+    </footer>
+</body>
+</html>
